@@ -27,5 +27,7 @@ This is docker repositories for everything
 ### Stop conatiner
 - docker stop "conatiner-id"
 
+### Cheatsheet
+- [https://docs.docker.com/get-started/docker_cheatsheet.pdf]
 
 
