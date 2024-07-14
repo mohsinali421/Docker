@@ -8,7 +8,6 @@
   },
   "name": "docker",
   "description": "This is docker repositories for everything",
-  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

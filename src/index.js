@@ -1,7 +1,6 @@
-import express from 'express'
+const express = require("express")
 const app = express()
-import ENV from "dotenv"
-ENV.config()
+require("dotenv").config()
 
 const PORT = process.env.PORT
 app.get("/", (req,res) => {
