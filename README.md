@@ -22,12 +22,26 @@ This is docker repositories for everything
 - docker build -t my-nodejs-app .
 
 ### Run container based on image
-- docker run -p 3000:3000 my-nodejs-app
+- docker run -p 3000:3001 my-nodejs-app
+- <host-port>:<container-port> 
 
 ### Stop conatiner
 - docker stop "conatiner-id"
 
+### Give tag to image otherwise tag = latest
+- docker build -t myapp:v2 .
+
+### Delete container
+- docker kill <container-id>
+- docker rm <container-id>
+
+### Delete images
+- docker rmi image:tag
+
 ### Cheatsheet
 - [https://docs.docker.com/get-started/docker_cheatsheet.pdf]
+
+### Search images on Hub
+- [https://hub.docker.com/]
 
 
