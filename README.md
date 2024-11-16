@@ -23,7 +23,7 @@ This is docker repositories for everything
 
 ### Run container based on image
 - docker run -p 3000:3001 my-nodejs-app
-- <host-port>:<container-port> 
+- [host-port] : [container-port] 
 
 ### Stop conatiner
 - docker stop "conatiner-id"
