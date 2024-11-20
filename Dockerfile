@@ -11,7 +11,7 @@ RUN npm install
 COPY . .
 
 # EXPOSE does not open the port rather it is just the information
-EXPOSE 3001
+EXPOSE 3002
 
 # ENV variable key value
 ENV PORT 3002

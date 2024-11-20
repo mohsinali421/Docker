@@ -44,4 +44,9 @@ This is docker repositories for everything
 ### Search images on Hub
 - [https://hub.docker.com/]
 
+### Push Docker image to Hub
+- docker login  
+- docker tag localimage:latest mohsinali421/hubimagename:latest
+- docker push mohsinali421/hubimagename:latest   
+
 

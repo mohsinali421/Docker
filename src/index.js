@@ -4,7 +4,7 @@ require("dotenv").config()
 
 const PORT = process.env.PORT || 3001
 app.get("/", (req,res) => {
-    res.json("Welcome to Docker Servers!")
+    res.json("Welcome to Docker Servers! and env is ", process.env.KEY)
 })
 
 app.listen(PORT, () => {
